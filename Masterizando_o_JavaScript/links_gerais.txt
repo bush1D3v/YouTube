@@ -1,0 +1,6 @@
+Link do Vídeo: https://youtu.be/9eYNM29yzaI
+
+Ref do Artigo Técnico: https://www.reddit.com/r/rust/comments/mytmyu/energy_efficiency_across_programming_languages/?rdt=54262
+Ref das @ts annotations: https://www.typescriptlang.org/docs/handbook/intro-to-js-ts.html
+Ref de Type Checking em arquivos JavaScript: https://www.typescriptlang.org/docs/handbook/type-checking-javascript-files.html
+Ref do JSDoc: https://www.typescriptlang.org/docs/handbook/jsdoc-supported-types.html
