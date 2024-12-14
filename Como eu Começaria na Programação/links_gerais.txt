@@ -5,3 +5,17 @@ Tópico 2 "Quais linguagens estudar? / Quantas horas estudar?"
 Podcast Meu Primeiro Emprego: https://open.spotify.com/episode/7isZbFaNcqautsTguUYPoU?si=9169b4f93070472a
 
 Tópico 3 "Fontes de Estudos"
+Roadmaps: https://roadmap.sh/
+
+Tópico 4 "Qual mentalidade ter em frente a muito conteúdo e frustrações?"
+Fabio Akita: https://www.youtube.com/@Akitando
+
+Tópico 6 "Como colocar em prática o que estudou?"
+CodeWars: https://www.codewars.com/
+LeetCode: https://leetcode.com/
+HackerRank: https://www.hackerrank.com/
+
+Tópico 8 "Como aprender sozinho?"
+
+Vídeo 1 da Rinha: https://www.youtube.com/watch?v=EifK2a_5K_U
+Vídeo 2 da Rinha: https://www.youtube.com/watch?v=-yGHG3pnHLg
