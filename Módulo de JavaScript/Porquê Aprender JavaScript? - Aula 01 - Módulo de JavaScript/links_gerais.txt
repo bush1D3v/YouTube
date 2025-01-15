@@ -1,0 +1,8 @@
+Pesquisa de Popularidade do JavaScript:
+https://www.alura.com.br/empresas/artigos/linguagens-de-programacao-mais-usadas
+
+Vídeo Sobre GitHub:
+https://youtu.be/1URq3tKIN3s
+
+Vídeo sobre JSDocs:
+https://youtu.be/9eYNM29yzaI
