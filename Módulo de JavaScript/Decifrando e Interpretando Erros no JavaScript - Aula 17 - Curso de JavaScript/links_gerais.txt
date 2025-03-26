@@ -1,5 +1,8 @@
 Link do Vídeo:
-
+https://youtu.be/5vd0ngYcku0
 
 Link da Aula 10, sobre Depuração de Código:
 https://youtu.be/B1ElcAySoe0?si=8I0K0nPeCwgLag5S
+
+Link Site com Erros HTTP Representados por Gatos:
+https://http.cat/
