@@ -1,0 +1,2 @@
+Link do NVM:
+https://github.com/nvm-sh/nvm

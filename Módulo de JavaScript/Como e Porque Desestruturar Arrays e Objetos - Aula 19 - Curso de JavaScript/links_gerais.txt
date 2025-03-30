@@ -1,0 +1,7 @@
+Link do Vídeo:
+
+Link da biblioteca moment.js: 
+https://momentjs.com/
+
+Link da biblioteca Datefns:
+https://date-fns.org/
