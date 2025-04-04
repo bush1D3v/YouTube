@@ -1,2 +1,8 @@
 Link do Vídeo:
 https://youtu.be/MZ1UpMTz3R8
+
+Date FNS:
+https://date-fns.org/
+
+Moment.js:
+https://momentjs.com/
