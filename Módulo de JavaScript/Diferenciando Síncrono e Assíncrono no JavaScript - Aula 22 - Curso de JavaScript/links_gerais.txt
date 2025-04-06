@@ -1,0 +1,7 @@
+Link do Vídeo:
+
+Desvendando Documentações:
+https://youtu.be/RV294SFJCrs
+
+Documentação Síncrono X Assíncrono
+https://developer.mozilla.org/pt-BR/docs/Web/API/XMLHttpRequest_API/Synchronous_and_Asynchronous_Requests

@@ -1,0 +1,10 @@
+Link do Vídeo:
+
+Desvendando Documentações:
+https://youtu.be/RV294SFJCrs
+
+Documentação do setTimeout:
+https://developer.mozilla.org/en-US/docs/Web/API/Window/setTimeout
+
+Documentação do setInterval
+https://developer.mozilla.org/en-US/docs/Web/API/Window/setInterval
