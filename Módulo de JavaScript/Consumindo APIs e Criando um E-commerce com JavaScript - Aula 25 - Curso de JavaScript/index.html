@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-[hash-correto]" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <title>E-commerce do Curso de JavaScript do Navarro</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="categories-container">
+                <select id="category-filter" onchange="filterByCategory(this.value)">
+                    <option value="">Todas as categorias</option>
+                </select>
+            </div>
+
+            <div class="cart-container">
+                <div class="cart-icon" onclick="toggleCart()">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span id="cart-count">0</span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="cart-modal" class="cart-modal">
+        <div class="cart-content">
+            <div class="cart-header">
+                <h2>Seu Carrinho</h2>
+                <button onclick="toggleCart()" class="close-cart">&times;</button>
+            </div>
+            <div id="cart-items" class="cart-items">
+                
+            </div>
+            <div class="cart-footer">
+                <div class="cart-total">
+                    <span>Total:</span>
+                    <span id="cart-total-price">$0.00</span>
+                </div>
+                <button onclick="checkout()" class="checkout-btn">Finalizar Compra</button>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div class="container-produto">
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
