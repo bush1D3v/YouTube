@@ -15,3 +15,9 @@ https://youtu.be/l3YxPeS013Q?t=1189&si=ZPxcvsuKTI1s5hEw
 
 Intervalos e Tempo de Espera:
 https://youtu.be/FzjSszMjQDM
+
+Font Awesome:
+https://fontawesome.com/
+
+Font Awesome CDN Link:
+https://cdnjs.com/libraries/font-awesome
