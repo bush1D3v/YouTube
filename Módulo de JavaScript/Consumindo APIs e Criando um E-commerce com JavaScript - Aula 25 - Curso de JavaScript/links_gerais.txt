@@ -1,0 +1,14 @@
+Link do Vídeo:
+https://youtu.be/27sl28ljlvs
+
+Manipulando o DOM:
+https://youtu.be/l3YxPeS013Q
+
+Métodos de Array:
+https://youtu.be/y2jv-hltV3g
+
+Estruturas Condicionais:
+https://youtu.be/tjoU_XUFL4w
+
+Eventos do DOM:
+https://youtu.be/l3YxPeS013Q?t=1189&si=ZPxcvsuKTI1s5hEw
