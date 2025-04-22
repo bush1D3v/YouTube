@@ -12,3 +12,6 @@ https://youtu.be/tjoU_XUFL4w
 
 Eventos do DOM:
 https://youtu.be/l3YxPeS013Q?t=1189&si=ZPxcvsuKTI1s5hEw
+
+Intervalos e Tempo de Espera:
+https://youtu.be/FzjSszMjQDM
