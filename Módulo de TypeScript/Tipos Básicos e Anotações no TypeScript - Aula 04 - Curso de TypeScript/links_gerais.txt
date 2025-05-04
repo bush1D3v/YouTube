@@ -1,0 +1,5 @@
+Link do Vídeo:
+
+
+Artigo sobre tipos Void e Never:
+https://medium.com/xp-inc/typescript-conhecendo-o-type-never-aa88cc0a3b7a
