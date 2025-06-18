@@ -1,5 +1,5 @@
 Link do Video:
-
+https://youtu.be/rNWj2xZjfiY
 
 Ref do TypeScript:
 https://www.typescriptlang.org/pt/play/
