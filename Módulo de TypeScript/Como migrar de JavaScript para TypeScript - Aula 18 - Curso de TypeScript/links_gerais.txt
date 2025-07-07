@@ -1,0 +1,12 @@
+Link do Video:
+
+Links de ferramentas para migração:
+https://github.com/airbnb/ts-migrate
+https://typescript-eslint.io/
+
+
+Link aula de JS:
+
+JSDocs:
+
+TS Check:
