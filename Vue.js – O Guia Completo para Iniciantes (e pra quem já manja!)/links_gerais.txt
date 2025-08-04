@@ -1,0 +1,8 @@
+Link do Vídeo:
+
+
+Documentação do Vue.js:
+https://vuejs.org/guide/introduction
+
+Wikipédia do Vue.js:
+https://en.wikipedia.org/wiki/Vue.js
