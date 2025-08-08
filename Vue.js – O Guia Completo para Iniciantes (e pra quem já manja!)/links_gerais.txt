@@ -1,5 +1,5 @@
 Link do Vídeo:
-
+https://www.youtube.com/watch?v=wEvfQ6gqcXI
 
 Documentação do Vue.js:
 https://vuejs.org/guide/introduction
