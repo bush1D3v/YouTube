@@ -1,0 +1,26 @@
+{
+  "name": "factorial-typescript",
+  "version": "1.0.0",
+  "description": "Função para calcular fatorial em TypeScript",
+  "main": "factorial.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node factorial.js",
+    "dev": "ts-node factorial.ts",
+    "test": "ts-node test-factorial.ts",
+    "test:fib": "ts-node test-fibonacci.ts",
+    "test:soma": "ts-node test-soma.ts",
+    "test:factorial-comp": "ts-node test-factorial-comprehensive.ts",
+    "test:fibonacci-comp": "ts-node test-fibonacci-comprehensive.ts",
+    "test:integration": "ts-node test-integration.ts",
+    "test:all": "npm run test && npm run test:fib && npm run test:soma && npm run test:integration"
+  },
+  "keywords": ["typescript", "factorial", "math"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0",
+    "@types/node": "^20.0.0"
+  }
+}
