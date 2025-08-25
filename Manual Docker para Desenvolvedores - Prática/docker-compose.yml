@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  app:
+    build: ./app-node
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+  db:
+    image: mongo
+    volumes:
+      - mongo-data:/data/db
+
+volumes:
+  mongo-data:

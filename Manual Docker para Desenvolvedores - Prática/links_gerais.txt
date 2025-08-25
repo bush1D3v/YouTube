@@ -1,0 +1,8 @@
+Link do Vídeo:
+
+
+Docker Download no Windows:
+https://docs.docker.com/desktop/setup/install/windows-install/
+
+Docker Download no Linux:
+https://docs.docker.com/desktop/setup/install/linux/
