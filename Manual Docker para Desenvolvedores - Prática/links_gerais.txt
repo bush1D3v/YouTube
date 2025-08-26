@@ -1,6 +1,9 @@
 Link do Vídeo:
 https://youtu.be/-ZNLdPETN7o
 
+Aula Teórica:
+https://youtu.be/0gjWLHhVbTM
+
 Docker Download no Windows:
 https://docs.docker.com/desktop/setup/install/windows-install/
 
