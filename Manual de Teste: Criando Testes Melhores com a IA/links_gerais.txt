@@ -1,0 +1,9 @@
+Link do Vídeo:
+
+
+Link de Ferramentas:
+https://jestjs.io/
+https://vitest.dev/
+https://playwright.dev/
+https://www.cypress.io/
+https://mswjs.io/
