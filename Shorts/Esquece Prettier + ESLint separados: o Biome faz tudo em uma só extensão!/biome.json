@@ -1,0 +1,14 @@
+{
+  "formatter": {
+    "indentSize": 2,
+    "indentStyle": "space",
+    "quoteStyle": "single"
+  },
+  "linter": {
+    "rules": {
+      "nursery": {
+        "noUnusedVariables": "error"
+      }
+    }
+  }
+}
