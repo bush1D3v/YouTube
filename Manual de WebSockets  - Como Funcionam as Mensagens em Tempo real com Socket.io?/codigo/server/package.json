@@ -1,0 +1,22 @@
+{
+  "name": "socketio-realtime-demo",
+  "version": "1.0.0",
+  "description": "Demo simples de WebSockets com Socket.io (server.js + index.html)",
+  "main": "server.js",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon --watch server.js server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

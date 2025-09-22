@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Chat Realtime</title>
+    <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+    <style>
+      body { font-family: system-ui, sans-serif; max-width: 680px; margin: 40px auto; }
+      #log { border: 1px solid #ddd; padding: 12px; height: 280px; overflow: auto; }
+      form { display: flex; gap: 8px; margin-top: 12px; }
+      input, button { padding: 8px; }
+    </style>
+  </head>
+  <body>
+    <h1>Chat – sala <code>sala-chat-1</code></h1>
+
+    <div id="log"></div>
+    <form id="form">
+      <input id="msg" placeholder="Digite e Enter" />
+      <button type="submit">Enviar</button>
+    </form>
+
+    <script>
+      const socket = io('http://localhost:3000');
+      const room = 'sala-chat-1';
+      const log = (m) => { const el = document.createElement('div'); el.textContent = m; document.querySelector('#log').appendChild(el); };
+
+      socket.on('connect', () => {
+        log('✅ conectado: ' + socket.id);
+        socket.emit('chat:join', room);
+        socket.emit('ping:client', 'hello', (res) => log('pong: ' + JSON.stringify(res)));
+      });
+
+      socket.on('chat:sys', (m) => log('🛈 ' + m));
+      socket.on('chat:msg', (d) => log(`💬 ${d.de}: ${d.texto}`));
+
+      document.querySelector('#form').addEventListener('submit', (e) => {
+        e.preventDefault();
+        const texto = document.querySelector('#msg').value;
+        if (!texto) return;
+        socket.emit('chat:msg', { room, texto });
+        document.querySelector('#msg').value = '';
+      });
+    </script>
+  </body>
+</html>
