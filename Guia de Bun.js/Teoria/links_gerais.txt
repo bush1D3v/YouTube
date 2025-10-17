@@ -1,0 +1,8 @@
+Link do Video:
+https://youtu.be/kHYPbajB7ps
+
+Site Oficial do Bun.js:
+https://bun.com/
+
+Video sobre WebSockets:
+https://youtu.be/1WnIzAuhrvo
