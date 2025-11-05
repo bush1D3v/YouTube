@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "composite": true,
+        "references": [
+            { "path": "./components" },
+            { "path": "./ui" },
+            { "path": "./views" }
+        ]
+    }
+}

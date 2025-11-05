@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "composite": true,
+        "references": [
+            { "path": "./controller" },
+            { "path": "./core" },
+            { "path": "./infra" }
+        ]
+    }
+}
