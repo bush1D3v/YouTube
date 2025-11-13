@@ -1,0 +1,11 @@
+Linkdo Vídeo:
+
+
+Site para Favicons:
+https://favicon.io/favicon-converter/
+
+Page Speed Insights:
+https://pagespeed.web.dev/
+
+Meu Site:
+https://acrostic-ai.vercel.app/

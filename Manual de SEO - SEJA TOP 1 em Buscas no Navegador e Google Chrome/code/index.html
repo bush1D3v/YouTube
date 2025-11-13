@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- Primary Meta Tags -->
+    <title>Acrostic AI - Gerador de Acrósticos Inteligentes</title>
+    <meta name="title" content="Acrostic AI - Gerador de Acrósticos Inteligentes" />
+    <meta name="description" content="Transforme palavras em acrósticos criativos com inteligência artificial. Gere múltiplas variações de acrósticos personalizados gratuitamente." />
+    <meta name="keywords" content="acróstico, gerador de acróstico, IA, inteligência artificial, criatividade, palavras, poesia, gerador automático" />
+    <meta name="author" content="Acrostic AI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#8b5cf6" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://acrostic-ai.vercel.app/" />
+    <meta property="og:title" content="Acrostic AI - Gerador de Acrósticos Inteligentes" />
+    <meta property="og:description" content="Transforme palavras em acrósticos criativos com inteligência artificial. Gere múltiplas variações de acrósticos personalizados gratuitamente." />
+    <meta property="og:image" content="https://acrostic-ai.vercel.app/og-image.png" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content="Acrostic AI" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://acrostic-ai.vercel.app/" />
+    <meta name="twitter:title" content="Acrostic AI - Gerador de Acrósticos Inteligentes" />
+    <meta name="twitter:description" content="Transforme palavras em acrósticos criativos com inteligência artificial. Gere múltiplas variações de acrósticos personalizados gratuitamente." />
+    <meta name="twitter:image" content="https://acrostic-ai.vercel.app/og-image.png" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <!-- Preconnect to external domains for better performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Load Inter font with font-display: swap for better performance -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Critical CSS for faster initial paint -->
+    <style>
+      /* Critical styles for LCP optimization */
+      body {
+        margin: 0;
+        font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      #app {
+        min-height: 100vh;
+      }
+      /* Prevent layout shift */
+      .hero-title {
+        font-size: clamp(2.5rem, 8vw, 4rem);
+        font-weight: 700;
+        line-height: 1.1;
+        margin: 0;
+      }
+    </style>
+
+    <!-- DNS Prefetch for API -->
+    <link rel="dns-prefetch" href="https://api.openai.com" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://acrostic-ai.vercel.app/" />
+
+    <!-- Robots -->
+    <meta name="robots" content="index, follow" />
+
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Acrostic AI",
+      "description": "Transforme palavras em acrósticos criativos com inteligência artificial",
+      "url": "https://acrostic-ai.vercel.app/",
+      "applicationCategory": "UtilityApplication",
+      "operatingSystem": "Any",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "BRL"
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "Acrostic AI"
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
