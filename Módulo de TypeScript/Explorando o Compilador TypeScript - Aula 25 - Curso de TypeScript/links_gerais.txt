@@ -1,5 +1,5 @@
 Link do Vídeo:
-
+https://youtu.be/RtegdgRjpfY
 
 Artigo AST no Medium:
 https://medium.com/reactbrasil/como-o-javascript-funciona-an%C3%A1lise-resumo-das-%C3%A1rvores-de-sintaxe-asts-5-dicas-sobre-como-681eeb480b9e
