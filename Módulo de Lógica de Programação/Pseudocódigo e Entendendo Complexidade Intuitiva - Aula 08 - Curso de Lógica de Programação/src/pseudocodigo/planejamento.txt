@@ -1,0 +1,7 @@
+INÍCIO
+    definir contador = 0
+    para cada item na lista
+        se item === "Python"
+            aumentar contador
+    mostrar contador
+FIM
