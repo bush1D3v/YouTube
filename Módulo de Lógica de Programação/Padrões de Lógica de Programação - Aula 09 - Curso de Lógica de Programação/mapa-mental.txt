@@ -1,0 +1,5 @@
+CONTADOR → "Quantos...?"
+ACUMULADOR → "Qual o total...?"
+MÁX/MÍN → "Qual o maior/menor...?"
+FILTRO → "Quais itens passam...?"
+BUSCA (bônus) → "Existe algum...?"
