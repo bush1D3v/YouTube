@@ -1,0 +1,27 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: simplecrud
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  api:
+    build: .
+    environment:
+      PORT: 3000
+      NODE_ENV: development
+      DATABASE_URL: postgres://postgres:postgres@db:5432/simplecrud
+      JWT_SECRET: supersecret
+      BCRYPT_SALT_ROUNDS: 10
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+
+volumes:
+  pgdata:
