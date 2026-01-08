@@ -1,0 +1,8 @@
+Link do Video:
+
+
+Vue 3 Quick Start: 
+https://vuejs.org/guide/quick-start
+
+Introdução Vue: 
+https://vuejs.org/guide/introduction
