@@ -1,5 +1,5 @@
 Link do Video:
-
+https://youtu.be/JSIM_IIxCng
 
 Vue 3 Quick Start: 
 https://vuejs.org/guide/quick-start
