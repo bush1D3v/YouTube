@@ -1,0 +1,123 @@
+:root{
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  line-height: 1.4;
+  color: #111;
+  background: #f6f7fb;
+}
+
+*{ box-sizing: border-box; }
+body{ margin: 0; }
+a{ color: inherit; }
+
+.container{
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.card{
+  background: #fff;
+  border: 1px solid rgba(0,0,0,.08);
+  border-radius: 14px;
+  padding: 16px;
+  box-shadow: 0 8px 24px rgba(0,0,0,.06);
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+@media (min-width: 900px){
+  .grid{ grid-template-columns: 1.2fr .8fr; }
+}
+
+.row{ display:flex; gap: 12px; align-items: center; }
+.muted{ color: rgba(0,0,0,.6); }
+
+input{
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(0,0,0,.18);
+  outline: none;
+}
+
+button{
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(0,0,0,.15);
+  background: #111;
+  color: #fff;
+  cursor: pointer;
+}
+
+button.secondary{
+  background: #fff;
+  color: #111;
+}
+
+button:disabled{
+  opacity: .5;
+  cursor: not-allowed;
+}
+
+hr{ border: 0; border-top: 1px solid rgba(0,0,0,.08); margin: 14px 0; }
+
+.badge{
+  display:inline-flex;
+  align-items:center;
+  gap: 8px;
+  padding: 8px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(0,0,0,.12);
+  background: rgba(0,0,0,.03);
+  font-size: 14px;
+}
+
+.alert{
+  border-radius: 12px;
+  padding: 12px;
+  border: 1px solid rgba(0,0,0,.14);
+  background: rgba(255, 219, 88, .35);
+}
+
+.list{
+  display:flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.item{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(0,0,0,.08);
+  background: rgba(0,0,0,.02);
+}
+
+.price{ font-variant-numeric: tabular-nums; }
+.small{ font-size: 13px; }
+
+.qty{
+  display:flex;
+  align-items:center;
+  gap: 8px;
+}
+
+.qty button{
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border-radius: 10px;
+}
+
+footer{
+  margin-top: 14px;
+  font-size: 12px;
+  color: rgba(0,0,0,.55);
+}
