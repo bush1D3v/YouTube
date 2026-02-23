@@ -1,0 +1,42 @@
+.card {
+  background: rgba(255,255,255,.04);
+  border: 1px solid rgba(255,255,255,.10);
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+.btn {
+  cursor: pointer;
+  border: 1px solid rgba(255,255,255,.14);
+  background: rgba(255,255,255,.08);
+  color: inherit;
+  padding: 10px 12px;
+  border-radius: 12px;
+}
+.btn:hover { background: rgba(255,255,255,.12); }
+
+.input {
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,.14);
+  background: rgba(0,0,0,.18);
+  color: inherit;
+  outline: none;
+}
+
+.muted { opacity: .8; }
+.badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.08);
+  border: 1px solid rgba(255,255,255,.12);
+  font-size: 12px;
+}
+
+hr.sep {
+  border: 0;
+  border-top: 1px solid rgba(255,255,255,.10);
+  margin: 14px 0;
+}
