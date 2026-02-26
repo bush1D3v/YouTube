@@ -6,24 +6,6 @@
 }
 
 .row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
-.btn {
-  cursor: pointer;
-  border: 1px solid rgba(255,255,255,.14);
-  background: rgba(255,255,255,.08);
-  color: inherit;
-  padding: 10px 12px;
-  border-radius: 12px;
-}
-.btn:hover { background: rgba(255,255,255,.12); }
-
-.input {
-  padding: 10px 12px;
-  border-radius: 12px;
-  border: 1px solid rgba(255,255,255,.14);
-  background: rgba(0,0,0,.18);
-  color: inherit;
-  outline: none;
-}
 
 .muted { opacity: .8; }
 .badge {

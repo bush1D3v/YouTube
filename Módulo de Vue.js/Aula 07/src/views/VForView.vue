@@ -9,8 +9,10 @@
     <hr class="sep" />
 
     <div class="row">
-      <input class="input" v-model="newNameInputAddButton" placeholder="Nome do aluno" />
-      <button class="btn" @click="add('Botão de adicionar')">Adicionar</button>
+      <Input :placeholder="'Nome do aluno'" :model-value="newNameInputAddButton" @update:modelValue="newNameInputAddButton = $event" />
+      <Button :method="() => add('Botão de adicionar')">
+        Adicionar
+      </Button>
       <span class="badge">Total: {{ students.length }}</span>
     </div>
 
@@ -20,13 +22,14 @@
           <strong>{{ s.name }}</strong>
           <span class="muted">#{{ s.id }}</span>
         </div>
-        <button class="btn" @click="remove(s.id)">Remover</button>
+        <Button :method="() => remove(s.id)">
+          Remover
+        </Button>
       </li>
     </ul>
 
     <form @submit.prevent="add('Form com submit')">
-      <input type="text" v-model="newNameInputForm" placeholder="Nome do aluno" />
-
+      <Input type="text" :model-value="newNameInputForm" :placeholder="'Nome do aluno'" @update:modelValue="newNameInputForm = $event" />
     </form>
 
     <p class="muted" v-if="students.length === 0" style="margin-top: 12px;">
@@ -37,6 +40,8 @@
 
 <script setup>
 import { ref } from 'vue'
+import Input from '../components/Input/Input.vue'
+import Button from '../components/Button.vue'
 
 // Estados Reativos
 
@@ -69,7 +74,7 @@ function remove(id) {
 <style scoped>
 @import './_ui.css';
 h2 { margin: 0 0 6px; font-size: 18px; }
-.list { list-style: none; padding: 0; margin: 14px 0 0; display: grid; gap: 10px; }
+.list { list-style: none; padding: 0; margin: 14px 0 0; display: grid; gap: 10px; margin-bottom: 10px; }
 .item {
   display: flex; align-items: center; justify-content: space-between;
   padding: 12px; border-radius: 14px;
