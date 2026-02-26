@@ -1,4 +1,4 @@
-# Aula 07 — Diretivas no Vue 3 (Projeto de Demonstração)
+# Aula 07
 
 ```bash
 npm i
