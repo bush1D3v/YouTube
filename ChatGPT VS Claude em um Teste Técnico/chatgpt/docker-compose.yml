@@ -1,0 +1,34 @@
+services:
+  api:
+    build:
+      context: ./server
+    environment:
+      NODE_ENV: production
+      PORT: 3333
+      DATABASE_URL: file:/data/prod.db
+      CORS_ORIGIN: http://localhost:3000
+    ports:
+      - "3333:3333"
+    volumes:
+      - finance-data:/data
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:3333/health || exit 1"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+
+  web:
+    build:
+      context: ./web
+      args:
+        NEXT_PUBLIC_API_URL: http://localhost:3333
+    environment:
+      NEXT_PUBLIC_API_URL: http://localhost:3333
+    ports:
+      - "3000:3000"
+    depends_on:
+      api:
+        condition: service_healthy
+
+volumes:
+  finance-data:

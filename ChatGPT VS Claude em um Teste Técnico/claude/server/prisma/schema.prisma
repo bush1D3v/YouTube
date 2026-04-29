@@ -1,0 +1,27 @@
+// Prisma schema — SQLite for zero-config local persistence.
+// Easily swappable to Postgres/MySQL by changing the datasource provider.
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// SQLite has no native enums; we represent the transaction type as a String
+// constrained at the application layer (Zod schema + domain types).
+// Allowed values: "INCOME" | "EXPENSE".
+
+model Transaction {
+  id        String   @id @default(uuid())
+  title     String
+  amount    Float
+  type      String   // "INCOME" | "EXPENSE" — SQLite has no native enum
+  category  String
+  createdAt DateTime @default(now())
+
+  @@index([type])
+  @@index([category])
+  @@index([createdAt])
+}
