@@ -1,0 +1,8 @@
+Usa o REA pra analisar o app Pomatez que tá instalado na
+minha máquina. Me diz a stack, as funcionalidades e as
+limitações. Salva tudo em ANALISE.md.
+
+-----
+
+Com base no ANALISE.md, recria o app dentro da pasta clone.
+Mesmas funcionalidades principais. Código novo, do zero.
